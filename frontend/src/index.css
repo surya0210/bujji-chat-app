@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes:  light,dark,cupcake,bumblebee,emerald --default,corporate,synthwave,retro,cyberpunk,valentine,halloween,garden,forest,aqua,lofi,pastel,fantasy,wireframe,black,luxury,dracula,cmyk,autumn,business,acid,lemonade,night,coffee,winter,dim,nord,sunset
+
+  }
+
+@theme {
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+  }
+}
